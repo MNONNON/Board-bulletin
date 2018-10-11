@@ -77,22 +77,25 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Message styles */
 
-.message {
+.post {
 	box-sizing: border-box;
-	background-color: #383838;
+	background-color: white;
 	margin-bottom: 25px;
 	margin-right: 10px;
 	margin-left: 10px;
 	padding: 1.4em 1.4em;
-	height: 150px;
-	border-bottom: 4px solid #0a8fd5;
+	height: 130px;
+	border-bottom: 4px solid #111;
+	border-top: 1px solid #111;
+	border-right: 1px solid #111;
+	border-left: 1px solid #111;
 
-	.message-title {
+	.post-title {
 		font-size: 1.5em;
 		font-family: 'Muli', sans-serif;
 		font-weight: 300;
 		margin-top: 0;
-		color: white;
+		color: black;
 		margin-bottom: 25px;
 	}
 
@@ -102,18 +105,15 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-.message:nth-child(4n) {
-	clear: left;
-}
 
 /* Message show-page styles */
 
-.message-show {
+.post-show {
 	box-sizing: border-box;
-	background-color: #383838;
+	background-color: white;
 	padding: 2.0em 1.5em;
 	border-bottom: 4px solid #0a8fd5;
-	color: #fff;
+	color: #111;
 	font-family: 'Muli', sans-serif;
 	font-weight: 300;
 
@@ -121,15 +121,16 @@ h1, h2, h3, h4, h5, h6 {
 		margin-top: 0;
 	}
 
-	.message-desc {
+	.post-desc {
 		font-size: 1.1em;
 		line-height: 1.75;
 		margin-bottom: 50px;
 	}
 
-	.message-posted-by {
-		color: #eee;
+	.post-posted-by {
 		font-size: 0.9em;
+		color: #111;
+		
 	}
 
 	.reply-to-msg {
@@ -142,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Comment styles */
 
 .comment {
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid #333;
 	padding-top: 15px;
 	padding-bottom: 15px;
 
@@ -151,14 +152,14 @@ h1, h2, h3, h4, h5, h6 {
 	}	
 
 	.comment-posted-by {
-		color: #eee;
+		color: #111;
 		font-size: 0.8em;
 	}
 
 	.links {
 		margin-top: 15px;
 		a {
-			color: #0a8fd5;
+			color: #111;
 			margin-right: 15px;
 		}
 	}
