@@ -1,0 +1,8 @@
+<div class="container" >
+    <div class:"message" >
+        <% @posts.each do |post| %>
+            <h2 class:"message-title" ><%= post.title %></h2>
+            <%= link_to "Show Thread", post_path(post), class:"btn btn-default" %>
+        <% end %>
+    </div>
+</div>
