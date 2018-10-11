@@ -3,14 +3,14 @@
 Simple Board bulletin website
 
 # Basic functions:
-- able to create multiple threads
-- able to view the thread list
-- able to psot comments on the threads
-- able to see comment list
-- able to edit/delete comments
+- Able to create multiple threads
+- Able to view the thread list
+- Able to psot comments on the threads
+- Able to see comment list
+- Able to edit/delete comments
 
 Application function
-- login function
+- Login function
 - User registration
 - Be able to only edit/delete comments you posted 
 - The comments in the thread are arraanged in the newest older
