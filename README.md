@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple Board bulletin website
 
-Things you may want to cover:
+# Basic functions:
+*able to create multiple threads
+*able to view the thread list
+*able to psot comments on the threads
+*able to see comment list
+*able to edit/delete comments
 
-* Ruby version
+Application function
+*login function
+*User registration
+*be able to only edit/delete comments you posted 
+*The comments in the thread are arraanged in the newest older
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
